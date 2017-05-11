@@ -1,0 +1,1430 @@
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 14:53:59] "GET /web/login HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 14:54:00] "GET /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 14:54:00] "GET /?ref=stanhache HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 14:54:00] "GET /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 14:54:00] "GET /?ref=stanhache HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 14:54:07] "HEAD /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 14:54:07] "HEAD /?ref=stanhache HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 14:54:07] "GET /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 15:52:51] "POST /longpolling/poll HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 15:52:59] "GET /?ref=health HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 15:52:59] "GET /?ref=health HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 15:53:00] "GET /?ref=health HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 15:53:02] "GET /?ref=health HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 15:53:09] "HEAD /?ref=health HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 15:53:09] "HEAD /?ref=health HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 15:53:09] "GET /?ref=health HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:06:01] "POST /xmlrpc/2/object HTTP/1.1" 200 -
+ERROR Reiva openerp.sql_db: bad query: UPDATE "sale_order" SET "amount_tax"='9.54',"amount_delivery"='13.75',"amount_untaxed"='63.70',"amount_total"='73.24' WHERE id = 1227
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/sql_db.py", line 234, in execute
+    res = self._obj.execute(query, params)
+TransactionRollbackError: could not serialize access due to concurrent update
+
+INFO Reiva openerp.service.model: SERIALIZATION_FAILURE, retry 1/5 in 0.1076 sec...
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:30:53] "POST /longpolling/poll HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:30:54] "HEAD /?ref=robby HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:30:54] "HEAD /?ref=robby HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:30:54] "GET /?ref=robby HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:32:48] "GET /?ref=stanhache HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:32:55] "GET /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:32:55] "GET /?ref=stanhache HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:32:55] "GET /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:32:55] "GET /?ref=stanhache HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:33:02] "HEAD /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:33:02] "HEAD /?ref=stanhache HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:33:02] "GET /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:33:21] "GET /?ref=robby HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:33:27] "GET /?ref=robby HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:33:27] "GET /?ref=robby HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:33:28] "GET /?ref=robby HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {'avs_response_code': u'Y',
+ 'bank_approval_code': u'096298',
+ 'bank_transaction_id': u'663728780011080010',
+ 'card': u'V',
+ 'cardholder': u'Elaine Roussel',
+ 'charge_total': u'412.42',
+ 'cust_id': u'',
+ 'cvd_response_code': u'M',
+ 'date_stamp': u'2017-05-09',
+ 'eci': u'5',
+ 'email': u'elainerousse@hotmail.com',
+ 'expiry_date': u'2010',
+ 'f4l4': u'4540***3012',
+ 'iso_code': u'01',
+ 'message': u'APPROVED           *                    =',
+ 'note': u'',
+ 'response_code': u'027',
+ 'response_order_id': u'mhp17128125014p09',
+ 'result': u'1',
+ 'rvaroid': u'SO1228',
+ 'rvarret': u'{&amp;quot;return_url&amp;quot;: &amp;quot;/shop/payment/validate&amp;quot;}',
+ 'time_stamp': u'12:51:37',
+ 'trans_name': u'cavv_purchase',
+ 'transactionKey': u'MLhjhj5v8nStXUmeSZiU3i2AFDwQ14',
+ 'txn_num': u'503-0_116'}
+INFO Reiva openerp.addons.payment_moneris.controllers.main: order_id = mhp17128125014p09<br>transactionKey = MLhjhj5v8nStXUmeSZiU3i2AFDwQ14<br>response_code = 27<br>amount = 412.42<br>status = Valid-Approved<br>txn_num = 503-0_116
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.mail.mail_mail: Mail with ID 467 and Message-Id u'<1494348703.770184040069580.752035420759216-openerp-1227-sale.order@7552f29c1c1f>' successfully sent
+order company Reiva
+r sale.order(1227,)
+res {'view_mode': 'form', 'nodestroy': True, 'name': u'Factures clients', 'context': "{'type':'out_invoice'}", 'view_type': 'form', 'res_model': 'account.invoice', 'view_id': [(539,)], 'type': 'ir.actions.act_window', 'res_id': 412, 'target': 'current'}
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:51:50] "POST /longpolling/poll HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:51:50] "POST /longpolling/poll HTTP/1.1" 200 -
+voucher_id 310
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 16:51:59] "POST /longpolling/poll HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {'avs_response_code': u'W',
+ 'bank_approval_code': u'00196S',
+ 'bank_transaction_id': u'663728780011080020',
+ 'card': u'M',
+ 'cardholder': u'France Dub\xe9',
+ 'charge_total': u'244.49',
+ 'cust_id': u'',
+ 'cvd_response_code': u'M',
+ 'date_stamp': u'2017-05-09',
+ 'eci': u'7',
+ 'email': u'france.dube1@outlook.com',
+ 'expiry_date': u'1910',
+ 'f4l4': u'5524***9463',
+ 'iso_code': u'01',
+ 'message': u'APPROVED           *                    =',
+ 'note': u'',
+ 'response_code': u'027',
+ 'response_order_id': u'mhp17128131834p82',
+ 'result': u'1',
+ 'rvaroid': u'SO1241',
+ 'rvarret': u'{&amp;quot;return_url&amp;quot;: &amp;quot;/shop/payment/validate&amp;quot;}',
+ 'time_stamp': u'13:20:05',
+ 'trans_name': u'purchase',
+ 'transactionKey': u'6F2HwPJjxY1CSYSkkdzbJFlB5QRmls',
+ 'txn_num': u'504-0_116'}
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 17:20:07] "POST /payment/moneris/dpn HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 17:20:07] "POST /payment/moneris/dpn HTTP/1.1" 500 -
+ERROR Reiva werkzeug: Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/werkzeug/serving.py", line 177, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python2.7/dist-packages/werkzeug/serving.py", line 165, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/server.py", line 291, in app
+    return self.app(e, s)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/wsgi_server.py", line 216, in application
+    return application_unproxied(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/wsgi_server.py", line 202, in application_unproxied
+    result = handler(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1297, in __call__
+    return self.dispatch(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1271, in __call__
+    return self.app(environ, start_wrapped)
+  File "/usr/lib/python2.7/dist-packages/werkzeug/wsgi.py", line 588, in __call__
+    return self.app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1444, in dispatch
+    result = ir_http._dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 148, in _dispatch
+    resp = super(ir_http, self)._dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 175, in _dispatch
+    return self._handle_exception(e)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 196, in _handle_exception
+    return super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/docker-addons/payment_moneris/controllers/main.py", line 114, in moneris_dpn
+    if self.moneris_validate_data(**post):
+  File "/mnt/docker-addons/payment_moneris/controllers/main.py", line 73, in moneris_validate_data
+    uopen = urllib2.urlopen(urequest)
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1240, in https_open
+    context=self._context)
+  File "/usr/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno -5] No address associated with hostname>
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 17:20:16] "GET /shop/product/independant-associate-registration-75 HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {'avs_response_code': u'W',
+ 'bank_approval_code': u'00372S',
+ 'bank_transaction_id': u'663728780011080030',
+ 'card': u'M',
+ 'cardholder': u'France Dube',
+ 'charge_total': u'244.49',
+ 'cust_id': u'',
+ 'cvd_response_code': u'M',
+ 'date_stamp': u'2017-05-09',
+ 'eci': u'7',
+ 'email': u'france.dube1@outlook.com',
+ 'expiry_date': u'1910',
+ 'f4l4': u'5524***9463',
+ 'iso_code': u'01',
+ 'message': u'APPROVED           *                    =',
+ 'note': u'',
+ 'response_code': u'027',
+ 'response_order_id': u'mhp17128132121p18',
+ 'result': u'1',
+ 'rvaroid': u'SO1241',
+ 'rvarret': u'{&amp;quot;return_url&amp;quot;: &amp;quot;/shop/payment/validate&amp;quot;}',
+ 'time_stamp': u'13:30:11',
+ 'trans_name': u'purchase',
+ 'transactionKey': u'bQeep3ubp5tw0PMqkOFhc0A704B4V9',
+ 'txn_num': u'505-0_116'}
+INFO Reiva openerp.addons.payment_moneris.controllers.main: order_id = mhp17128132121p18<br>transactionKey = bQeep3ubp5tw0PMqkOFhc0A704B4V9<br>response_code = 27<br>amount = 244.49<br>status = Valid-Approved<br>txn_num = 505-0_116
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.mail.mail_mail: Mail with ID 469 and Message-Id u'<1494351019.759426116943359.835391000566960-openerp-1240-sale.order@7552f29c1c1f>' successfully sent
+order company Reiva
+r sale.order(1240,)
+res {'view_mode': 'form', 'nodestroy': True, 'name': u'Factures clients', 'context': "{'type':'out_invoice'}", 'view_type': 'form', 'res_model': 'account.invoice', 'view_id': [(539,)], 'type': 'ir.actions.act_window', 'res_id': 413, 'target': 'current'}
+voucher_id 311
+INFO Reiva openerp.addons.entrepro_delivery_carrier.models.entrepro_addorder: Entrepro Response Order: <SOAPpy.Types.structType return at 140323092488064>: {'Status': 'Success', 'OrderNo': 'C-06682'}
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {'avs_response_code': u'W',
+ 'bank_approval_code': u'21343Z',
+ 'bank_transaction_id': u'663728780011080040',
+ 'card': u'M',
+ 'cardholder': u'Odette Girard',
+ 'charge_total': u'703.93',
+ 'cust_id': u'',
+ 'cvd_response_code': u'M',
+ 'date_stamp': u'2017-05-09',
+ 'eci': u'7',
+ 'email': u'odetteg@hotmail.ca',
+ 'expiry_date': u'1902',
+ 'f4l4': u'5258***3402',
+ 'iso_code': u'01',
+ 'message': u'APPROVED           *                    =',
+ 'note': u'',
+ 'response_code': u'027',
+ 'response_order_id': u'mhp17128134233p21',
+ 'result': u'1',
+ 'rvaroid': u'SO1242',
+ 'rvarret': u'{&amp;quot;return_url&amp;quot;: &amp;quot;/shop/payment/validate&amp;quot;}',
+ 'time_stamp': u'13:43:59',
+ 'trans_name': u'purchase',
+ 'transactionKey': u'4wyDAN8QSOIPgADaCGEM8K14vybHqL',
+ 'txn_num': u'506-0_116'}
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 17:44:01] "POST /payment/moneris/dpn HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 17:44:01] "POST /payment/moneris/dpn HTTP/1.1" 500 -
+ERROR Reiva werkzeug: Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/werkzeug/serving.py", line 177, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python2.7/dist-packages/werkzeug/serving.py", line 165, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/server.py", line 291, in app
+    return self.app(e, s)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/wsgi_server.py", line 216, in application
+    return application_unproxied(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/wsgi_server.py", line 202, in application_unproxied
+    result = handler(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1297, in __call__
+    return self.dispatch(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1271, in __call__
+    return self.app(environ, start_wrapped)
+  File "/usr/lib/python2.7/dist-packages/werkzeug/wsgi.py", line 588, in __call__
+    return self.app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1444, in dispatch
+    result = ir_http._dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 148, in _dispatch
+    resp = super(ir_http, self)._dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 175, in _dispatch
+    return self._handle_exception(e)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 196, in _handle_exception
+    return super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/docker-addons/payment_moneris/controllers/main.py", line 114, in moneris_dpn
+    if self.moneris_validate_data(**post):
+  File "/mnt/docker-addons/payment_moneris/controllers/main.py", line 73, in moneris_validate_data
+    uopen = urllib2.urlopen(urequest)
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1240, in https_open
+    context=self._context)
+  File "/usr/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno -5] No address associated with hostname>
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 17:44:16] "GET /shop/product/independant-associate-registration-75 HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {'avs_response_code': u'W',
+ 'bank_approval_code': u'21345Z',
+ 'bank_transaction_id': u'663728780011080050',
+ 'card': u'M',
+ 'cardholder': u'Odette Girard',
+ 'charge_total': u'703.93',
+ 'cust_id': u'',
+ 'cvd_response_code': u'M',
+ 'date_stamp': u'2017-05-09',
+ 'eci': u'7',
+ 'email': u'odetteg@hotmail.ca',
+ 'expiry_date': u'1902',
+ 'f4l4': u'5258***3402',
+ 'iso_code': u'01',
+ 'message': u'APPROVED           *                    =',
+ 'note': u'',
+ 'response_code': u'027',
+ 'response_order_id': u'mhp17128134444p00',
+ 'result': u'1',
+ 'rvaroid': u'SO1242',
+ 'rvarret': u'{&amp;quot;return_url&amp;quot;: &amp;quot;/shop/payment/validate&amp;quot;}',
+ 'time_stamp': u'13:45:54',
+ 'trans_name': u'purchase',
+ 'transactionKey': u'MCqz6Py9th8BMvsU4GcXrHC6AHjIat',
+ 'txn_num': u'507-0_116'}
+INFO Reiva openerp.addons.payment_moneris.controllers.main: order_id = mhp17128134444p00<br>transactionKey = MCqz6Py9th8BMvsU4GcXrHC6AHjIat<br>response_code = 27<br>amount = 703.93<br>status = Valid-Approved<br>txn_num = 507-0_116
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.mail.mail_mail: Mail with ID 471 and Message-Id u'<1494351960.886512994766235.374856044245078-openerp-1241-sale.order@7552f29c1c1f>' successfully sent
+order company Reiva
+r sale.order(1241,)
+res {'view_mode': 'form', 'nodestroy': True, 'name': u'Factures clients', 'context': "{'type':'out_invoice'}", 'view_type': 'form', 'res_model': 'account.invoice', 'view_id': [(539,)], 'type': 'ir.actions.act_window', 'res_id': 414, 'target': 'current'}
+voucher_id 312
+INFO Reiva openerp.addons.entrepro_delivery_carrier.models.entrepro_addorder: Entrepro Response Order: <SOAPpy.Types.structType return at 140323114617528>: {'Status': 'Success', 'OrderNo': 'C-06683'}
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {'avs_response_code': u'X',
+ 'bank_approval_code': u'21403Z',
+ 'bank_transaction_id': u'663728780011080060',
+ 'card': u'M',
+ 'cardholder': u'Odette Girard',
+ 'charge_total': u'57.43',
+ 'cust_id': u'',
+ 'cvd_response_code': u'M',
+ 'date_stamp': u'2017-05-09',
+ 'eci': u'7',
+ 'email': u'don.delarosbil@hotmail.ca',
+ 'expiry_date': u'1911',
+ 'f4l4': u'5258***7149',
+ 'iso_code': u'01',
+ 'message': u'APPROVED           *                    =',
+ 'note': u'',
+ 'response_code': u'027',
+ 'response_order_id': u'mhp17128140236p91',
+ 'result': u'1',
+ 'rvaroid': u'SO1244',
+ 'rvarret': u'{&amp;quot;return_url&amp;quot;: &amp;quot;/shop/payment/validate&amp;quot;}',
+ 'time_stamp': u'14:03:45',
+ 'trans_name': u'purchase',
+ 'transactionKey': u'qNk2SfLaf4qcLlPom2w3ZB1uIMqMpG',
+ 'txn_num': u'508-0_116'}
+INFO Reiva openerp.addons.payment_moneris.controllers.main: order_id = mhp17128140236p91<br>transactionKey = qNk2SfLaf4qcLlPom2w3ZB1uIMqMpG<br>response_code = 27<br>amount = 57.43<br>status = Valid-Approved<br>txn_num = 508-0_116
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.mail.mail_mail: Mail with ID 473 and Message-Id u'<1494353031.282668113708496.544690267655030-openerp-1243-sale.order@7552f29c1c1f>' successfully sent
+order company Reiva
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 18:03:53] "GET /fr_CA/page/my-office HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 18:03:53] "GET /fr_CA/page/my-office HTTP/1.1" 200 -
+r sale.order(1243,)
+res {'view_mode': 'form', 'nodestroy': True, 'name': u'Factures clients', 'context': "{'type':'out_invoice'}", 'view_type': 'form', 'res_model': 'account.invoice', 'view_id': [(539,)], 'type': 'ir.actions.act_window', 'res_id': 415, 'target': 'current'}
+voucher_id 313
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 18:03:58] "GET /fr_CA/page/contactus HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 21:09:39] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 -
+ERROR Reiva openerp.sql_db: bad query: UPDATE "payment_transaction" SET "amount"='162.80',"fees"='0.00',"write_uid"=1,"write_date"=(now() at time zone 'UTC') WHERE id IN (481)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/sql_db.py", line 234, in execute
+    res = self._obj.execute(query, params)
+TransactionRollbackError: could not serialize access due to concurrent update
+
+INFO Reiva openerp.service.model: SERIALIZATION_FAILURE, retry 1/5 in 0.1462 sec...
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {}
+WARNING Reiva openerp.addons.payment_moneris.controllers.main: Moneris: No order found
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 23:32:45] "GET /payment/moneris/dpn HTTP/1.1" 302 -
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {'avs_response_code': u'N',
+ 'bank_approval_code': u'21938S',
+ 'bank_transaction_id': u'663728780011080070',
+ 'card': u'M',
+ 'cardholder': u'onil th\xe9riault',
+ 'charge_total': u'77.8',
+ 'cust_id': u'',
+ 'cvd_response_code': u'M',
+ 'date_stamp': u'2017-05-09',
+ 'eci': u'7',
+ 'email': u'onil.th@globetrotter.net',
+ 'expiry_date': u'1910',
+ 'f4l4': u'5258***3677',
+ 'iso_code': u'01',
+ 'message': u'APPROVED           *                    =',
+ 'note': u'',
+ 'response_code': u'027',
+ 'response_order_id': u'mhp17128193505p04',
+ 'result': u'1',
+ 'rvaroid': u'SO1246',
+ 'rvarret': u'{&amp;quot;return_url&amp;quot;: &amp;quot;/shop/payment/validate&amp;quot;}',
+ 'time_stamp': u'19:38:26',
+ 'trans_name': u'purchase',
+ 'transactionKey': u'cHrCaC0DHYbShBbI9Rj8q4avNGdVST',
+ 'txn_num': u'509-0_116'}
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 23:38:30] "POST /payment/moneris/dpn HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 23:38:30] "POST /payment/moneris/dpn HTTP/1.1" 500 -
+ERROR Reiva werkzeug: Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/werkzeug/serving.py", line 177, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python2.7/dist-packages/werkzeug/serving.py", line 165, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/server.py", line 291, in app
+    return self.app(e, s)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/wsgi_server.py", line 216, in application
+    return application_unproxied(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/wsgi_server.py", line 202, in application_unproxied
+    result = handler(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1297, in __call__
+    return self.dispatch(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1271, in __call__
+    return self.app(environ, start_wrapped)
+  File "/usr/lib/python2.7/dist-packages/werkzeug/wsgi.py", line 588, in __call__
+    return self.app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1444, in dispatch
+    result = ir_http._dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 148, in _dispatch
+    resp = super(ir_http, self)._dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 175, in _dispatch
+    return self._handle_exception(e)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 196, in _handle_exception
+    return super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/docker-addons/payment_moneris/controllers/main.py", line 114, in moneris_dpn
+    if self.moneris_validate_data(**post):
+  File "/mnt/docker-addons/payment_moneris/controllers/main.py", line 73, in moneris_validate_data
+    uopen = urllib2.urlopen(urequest)
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1240, in https_open
+    context=self._context)
+  File "/usr/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno -5] No address associated with hostname>
+INFO Reiva werkzeug: 10.42.0.83 - - [09/May/2017 23:38:37] "GET / HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 01:04:53] "GET /fr_CA/shop/checkout HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 859, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 732, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/dist-packages/openerp/netsvc.py", line 126, in format
+    return DBFormatter.format(self, record)
+  File "/usr/lib/python2.7/dist-packages/openerp/netsvc.py", line 120, in format
+    return logging.Formatter.format(self, record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 474, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 82: ordinal not in range(128)
+Logged from file sql_db.py, line 241
+ERROR Reiva openerp.sql_db: bad query: SELECT MAX(CASE WHEN perm_read THEN 1 ELSE 0 END)   FROM ir_model_access a   JOIN ir_model m ON (m.id = a.model_id)   JOIN res_groups_users_rel gu ON (gu.gid = a.group_id)  WHERE m.model = 'ir.model.data'    AND gu.uid = 365    AND a.active IS True 
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/sql_db.py", line 234, in execute
+    res = self._obj.execute(query, params)
+InternalError: current transaction is aborted, commands ignored until end of transaction block
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 01:04:53] "GET /favicon.ico HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 01:04:53] "GET /favicon.ico HTTP/1.1" 500 -
+ERROR Reiva werkzeug: Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/werkzeug/serving.py", line 177, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python2.7/dist-packages/werkzeug/serving.py", line 165, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/server.py", line 291, in app
+    return self.app(e, s)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/wsgi_server.py", line 216, in application
+    return application_unproxied(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/wsgi_server.py", line 202, in application_unproxied
+    result = handler(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1297, in __call__
+    return self.dispatch(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1271, in __call__
+    return self.app(environ, start_wrapped)
+  File "/usr/lib/python2.7/dist-packages/werkzeug/wsgi.py", line 588, in __call__
+    return self.app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 1444, in dispatch
+    result = ir_http._dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 148, in _dispatch
+    resp = super(ir_http, self)._dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 155, in _dispatch
+    return self._handle_exception(e)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 249, in _handle_exception
+    html = request.website._render('website.http_error', values)
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 266, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 592, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **old_kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/website.py", line 296, in _render
+    return self.pool['ir.ui.view'].render(cr, uid, template, values=values, context=context)
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 268, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_ui_view.py", line 167, in render
+    view_obj = request.website.get_template(id_or_xml_id)
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 266, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 592, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **old_kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/website.py", line 291, in get_template
+    model, view_id = request.registry["ir.model.data"].get_object_reference(cr, uid, module, xmlid)
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 268, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_model.py", line 941, in get_object_reference
+    return self.xmlid_lookup(cr, uid, "%s.%s" % (module, xml_id))[1:3]
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 268, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "<string>", line 2, in xmlid_lookup
+    
+  File "/usr/lib/python2.7/dist-packages/openerp/tools/cache.py", line 74, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_model.py", line 897, in xmlid_lookup
+    ids = self.search(cr, uid, [('module','=',module), ('name','=', name)])
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 268, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/models.py", line 1646, in search
+    return self._search(cr, user, args, offset=offset, limit=limit, order=order, context=context, count=count)
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 268, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/models.py", line 4680, in _search
+    self.check_access_rights(cr, access_rights_uid or user, 'read')
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 268, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/models.py", line 3505, in check_access_rights
+    return self.pool.get('ir.model.access').check(cr, uid, self._name, operation, raise_exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/api.py", line 268, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "<string>", line 2, in check
+    
+  File "/usr/lib/python2.7/dist-packages/openerp/tools/cache.py", line 122, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_model.py", line 739, in check
+    , (model_name, uid,)
+  File "/usr/lib/python2.7/dist-packages/openerp/sql_db.py", line 158, in wrapper
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/sql_db.py", line 234, in execute
+    res = self._obj.execute(query, params)
+InternalError: current transaction is aborted, commands ignored until end of transaction block
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 01:05:02] "POST /longpolling/poll HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO ? werkzeug: 10.42.0.83 - - [10/May/2017 01:58:08] "GET /website/static/src/xml/website.xml HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 01:58:09] "GET /fr_CA/?ref=intermanic HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 02:00:20] "GET /shop/product/independant-associate-registration-75 HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 02:00:29] "GET /fr_CA/?ref=elaineroussel HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 02:00:31] "GET / HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 02:00:31] "GET /fr_CA/?ref=elaineroussel HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {'avs_response_code': u'X',
+ 'bank_approval_code': u'22245B',
+ 'bank_transaction_id': u'663728780011090010',
+ 'card': u'M',
+ 'cardholder': u'Christine Moreau',
+ 'charge_total': u'69.79',
+ 'cust_id': u'',
+ 'cvd_response_code': u'M',
+ 'date_stamp': u'2017-05-09',
+ 'eci': u'7',
+ 'email': u'cmoreau@lbpearson.ca',
+ 'expiry_date': u'1807',
+ 'f4l4': u'5258***1024',
+ 'iso_code': u'01',
+ 'message': u'APPROVED           *                    =',
+ 'note': u'',
+ 'response_code': u'027',
+ 'response_order_id': u'mhp17128224231p56',
+ 'result': u'1',
+ 'rvaroid': u'SO1250',
+ 'rvarret': u'{&amp;quot;return_url&amp;quot;: &amp;quot;/shop/payment/validate&amp;quot;}',
+ 'time_stamp': u'22:45:01',
+ 'trans_name': u'purchase',
+ 'transactionKey': u'wOFIZbPNQf6vwwXHIjUxAsqAQYS9Ll',
+ 'txn_num': u'512-0_116'}
+INFO Reiva openerp.addons.payment_moneris.controllers.main: order_id = mhp17128224231p56<br>transactionKey = wOFIZbPNQf6vwwXHIjUxAsqAQYS9Ll<br>response_code = 27<br>amount = 69.79<br>status = Valid-Approved<br>txn_num = 512-0_116
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.mail.mail_mail: Mail with ID 476 and Message-Id u'<1494384311.754595041275024.674539548638710-openerp-1249-sale.order@7552f29c1c1f>' successfully sent
+order company Reiva
+r sale.order(1249,)
+res {'view_mode': 'form', 'nodestroy': True, 'name': u'Factures clients', 'context': "{'type':'out_invoice'}", 'view_type': 'form', 'res_model': 'account.invoice', 'view_id': [(539,)], 'type': 'ir.actions.act_window', 'res_id': 416, 'target': 'current'}
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 02:45:18] "GET /shop/product/independant-associate-registration-75 HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 02:45:18] "GET /shop/product/independant-associate-registration-75 HTTP/1.1" 200 -
+voucher_id 314
+INFO Reiva openerp.addons.entrepro_delivery_carrier.models.entrepro_addorder: Entrepro Response Order: <SOAPpy.Types.structType return at 140323116511744>: {'Status': 'Success', 'OrderNo': 'C-06695'}
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 10:43:36] "POST /fr_CA/shop/cart/update HTTP/1.1" 302 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 859, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 732, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/dist-packages/openerp/netsvc.py", line 126, in format
+    return DBFormatter.format(self, record)
+  File "/usr/lib/python2.7/dist-packages/openerp/netsvc.py", line 120, in format
+    return logging.Formatter.format(self, record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 474, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 81: ordinal not in range(128)
+Logged from file sql_db.py, line 241
+INFO Reiva openerp.service.model: SERIALIZATION_FAILURE, retry 1/5 in 0.6968 sec...
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.payment_moneris.controllers.main: Beginning Moneris DPN form_feedback with post data {'avs_response_code': u'X',
+ 'bank_approval_code': u'206473',
+ 'bank_transaction_id': u'663728780011090020',
+ 'card': u'M',
+ 'cardholder': u'dave mayer',
+ 'charge_total': u'130.67',
+ 'cust_id': u'',
+ 'cvd_response_code': u'M',
+ 'date_stamp': u'2017-05-10',
+ 'eci': u'7',
+ 'email': u'dek-eau@outlook.com',
+ 'expiry_date': u'1808',
+ 'f4l4': u'5258***8568',
+ 'iso_code': u'01',
+ 'message': u'APPROVED           *                    =',
+ 'note': u'',
+ 'response_code': u'027',
+ 'response_order_id': u'mhp17129064533p12',
+ 'result': u'1',
+ 'rvaroid': u'SO1255',
+ 'rvarret': u'{&amp;quot;return_url&amp;quot;: &amp;quot;/shop/payment/validate&amp;quot;}',
+ 'time_stamp': u'06:47:40',
+ 'trans_name': u'purchase',
+ 'transactionKey': u'XUIgd3jFLKQcsrRInvox3qqsIbFi2t',
+ 'txn_num': u'513-0_116'}
+INFO Reiva openerp.addons.payment_moneris.controllers.main: order_id = mhp17129064533p12<br>transactionKey = XUIgd3jFLKQcsrRInvox3qqsIbFi2t<br>response_code = 27<br>amount = 130.67<br>status = Valid-Approved<br>txn_num = 513-0_116
+===================================================================================
+===================================================================================
+INFO Reiva openerp.addons.mail.mail_mail: Mail with ID 478 and Message-Id u'<1494413266.557945966720581.016186966078892-openerp-1254-sale.order@7552f29c1c1f>' successfully sent
+order company Reiva
+r sale.order(1254,)
+res {'view_mode': 'form', 'nodestroy': True, 'name': u'Factures clients', 'context': "{'type':'out_invoice'}", 'view_type': 'form', 'res_model': 'account.invoice', 'view_id': [(539,)], 'type': 'ir.actions.act_window', 'res_id': 417, 'target': 'current'}
+voucher_id 315
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 10:47:54] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 12:25:34] "POST /longpolling/poll HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 12:25:42] "GET /?ref=chantallarose HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 12:25:42] "GET /?ref=chantallarose HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 12:25:42] "GET /?ref=chantallarose HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 13:30:11] "GET /?ref=stanhache HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 13:30:16] "GET /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 13:30:16] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 13:30:16] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 13:30:21] "GET /shop/product/independant-associate-registration-75 HTTP/1.1" 200 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 13:30:22] "HEAD /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
+===================================================================================
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 13:30:22] "HEAD /?ref=stanhache HTTP/1.1" 500 -
+ERROR Reiva openerp.addons.website.models.ir_http: 500 Internal Server Error:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/website/models/ir_http.py", line 199, in _handle_exception
+    response = super(ir_http, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 145, in _handle_exception
+    return request._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 673, in _handle_exception
+    return super(HttpRequest, self)._handle_exception(exception)
+  File "/usr/lib/python2.7/dist-packages/openerp/addons/base/ir/ir_http.py", line 171, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 691, in dispatch
+    r = self._call_function(**self.params)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 317, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/service/model.py", line 118, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 314, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 810, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python2.7/dist-packages/openerp/http.py", line 410, in response_wrap
+    response = f(*args, **kw)
+  File "/mnt/extra-addons/to_affiliate_manager/controllers/main.py", line 197, in index
+    'browser': UserAgent.browser + ' / ' + UserAgent.version
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+INFO Reiva werkzeug: 10.42.0.83 - - [10/May/2017 13:30:22] "GET /?ref=stanhache HTTP/1.1" 500 -
+===================================================================================
